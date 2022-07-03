@@ -143,8 +143,10 @@ export const Status = styled.div`
     }
 
     &:nth-child(2) {
-        &, > svg path {
-            color: var(--retweet);
+        color: var(--retweet);
+
+        > svg path {
+            fill: var(--retweet);
         }
     }
 
