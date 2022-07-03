@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Feed from '../Feed';
 import { Container, Banner, Avatar, ProfileData,  LocationIcon, CakeIcon, Folllowage } from './styles';
 
 function ProfilePage() {
@@ -36,6 +37,10 @@ function ProfilePage() {
                 </span>
             </Folllowage>
         </ProfileData>
+
+        <Feed>
+            
+        </Feed>
     </Container>
   );
 }

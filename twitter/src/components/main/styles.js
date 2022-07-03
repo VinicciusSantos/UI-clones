@@ -4,6 +4,7 @@ import { ArrowLeft, Home, Search, Notifications, Email } from 'styled-icons/mate
 export const Container = styled.div `
     display: flex;
     flex-direction: column;
+    padding: 0;
 
     width: min(601px, 100%);
 

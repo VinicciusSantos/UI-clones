@@ -24,6 +24,7 @@ function Main() {
             <BellIcon />
             <EmailIcon />
         </BottonMenu>
+
     </Container>
   );
 }
