@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Wrapper } from './styles'
 import Main from '../main';
 import Menubar from '../Menubar';
+import Sidebar from '../Sidebar';
 
 function Layout() {
   return (
@@ -9,7 +10,7 @@ function Layout() {
         <Wrapper>
             <Menubar />
             <Main />
-            {/* <Sidebar /> */}
+            <Sidebar />
         </Wrapper>
     </Container>
   );
